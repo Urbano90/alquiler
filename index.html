@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/swiper.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <div id="menu--btn" class="menu--btn">
+            <img class="img-menu" alt="icon-menu" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAG9JREFUSEvtlckNwCAQA01nlEY6g8qC9rEfjigPKyBiF+CRRoYNWJSwiAuBPzMv1a46AbiJ3q+2a6aaCTVmx9kOTLQ8rtKq3Uskr7po1bNxmWpm8lvVTOiwS8/Jtfzvr7azyEzXp3Ex9T52SfX5qisn1AwfJnWg+AAAAABJRU5ErkJggg=="/>
+            <img class="img-cerrar" alt="icon-cerrar" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAATxJREFUSEvVluFtwkAMRl8maDegI8AElBGYgLIBGwAbdIOWDdgAmKAdod0AJmj1STG6nJIUYUdJLeXHJSe/fLbPvoKerOiJy6DAT8AoOBLfwFfqM1f8DiyCoeZOvpe2SMEvwFtHUHM7B/ZapOANsO4YvAXEGR74FKx8Wvr7U3H0Mfv5t+BHQOf8M0vFuDyn54YUuRQLeijBswQuqN6rQeh9HdwFTo+bnAsiE1Q/JbsWT6bcBZavtLOZMoPuADWhOnODc7hB2qDaEwJWTj8yWZOagku3uMFWSBZec245z6vdvrvAOVThldk0a4O7wUfgAUhzagV3AZ4bQu4CS51Uq3JXWY5fy4rvJNSeueFWfC/8ZrByFWmqjUpnG8TVp6krRSmvdLe6ga+xpyfSNLlar7eRsFZf0Vecm3+8N/Av4CBiH30a7RMAAAAASUVORK5CYII="/>
+        </div>
+        <a href="" class="logo"> <span>max</span>wheels</a>
+        <nav id="navbar" class="navbar">
+            <a href="#home">Inicio</a>
+            <a href="#vehicles">Vehículos</a>
+            <a href="#services">Servicios</a>
+            <a href="#featured">featured</a>
+            <a href="#reviews">Opiniones</a>
+            <a href="#contact">Contactos</a>
+        </nav>
+        <div id="login-btn">
+            <button class="btn">login</button>
+            <img class="img-login" src="./img/user.svg" alt="login"> <!--Aqui tiene que haber un icono de usuario-->
+        </div>
+    </header>
+       <!--login section ends-->
+
+       <!--login form-->
+       <div class="login-form-container">
+           <span id="close-login-form" class="close-login-form">
+            <img class="img-cerrar" alt="icon-cerrar" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAATxJREFUSEvVluFtwkAMRl8maDegI8AElBGYgLIBGwAbdIOWDdgAmKAdod0AJmj1STG6nJIUYUdJLeXHJSe/fLbPvoKerOiJy6DAT8AoOBLfwFfqM1f8DiyCoeZOvpe2SMEvwFtHUHM7B/ZapOANsO4YvAXEGR74FKx8Wvr7U3H0Mfv5t+BHQOf8M0vFuDyn54YUuRQLeijBswQuqN6rQeh9HdwFTo+bnAsiE1Q/JbsWT6bcBZavtLOZMoPuADWhOnODc7hB2qDaEwJWTj8yWZOagku3uMFWSBZec245z6vdvrvAOVThldk0a4O7wUfgAUhzagV3AZ4bQu4CS51Uq3JXWY5fy4rvJNSeueFWfC/8ZrByFWmqjUpnG8TVp6krRSmvdLe6ga+xpyfSNLlar7eRsFZf0Vecm3+8N/Av4CBiH30a7RMAAAAASUVORK5CYII="/>
+           </span>
+           <form action="">
+               <h3>Registro de usuario</h3>
+               <input type="email" class="box" placeholder="ejemplo@gmail.com">
+               <input type="password" class="box" placeholder="*********">
+               <p>¿Olvidaste tu contraseña? <a href="">pulse aqui</a> </p>
+               <input type="submit" value="registrarse ahora" class="btn">
+               <p>registrarse con:</p>
+               <div class="buttons">
+                   <a href="" class="btn">google</a>
+                   <a href="" class="btn">facebook</a>
+               </div>
+               <p>¿no tienes cuenta? <a href="">Crear cuenta</a></p>
+           </form>
+       </div>
+
+       <!--Home section stars-->
+       <section class="home">
+           <h1 class="home-parallax" data-speed="-2" id="home">Alquile su coche</h1>
+           <img class="home-parallax" data-speed="-5" src="./img/imagesJ57ZC6XV.jpg" alt="img-portada">
+           <a href="" class="btn home-parallax" data-speed="-7">Explore vehículos</a>
+       </section>
+       <!--Home section ends-->
+
+       <!--icons secction stars-->
+        
+       <section class="icons-container">
+          <div class="icons">
+            <img src="./img/home.svg" alt="icono">
+            <div class="content">
+                <h3>150+</h3>
+                <p>branches</p>
+            </div>
+          </div>
+
+          <div class="icons">
+            <img src="./img/car.svg" alt="icono">
+            <div class="content">
+                <h3>4770+</h3>
+                <p>cars sold</p>
+            </div>
+          </div>
+
+          <div class="icons">
+            <img src="./img/user.svg" alt="icono">
+            <div class="content">
+                <h3>590+</h3>
+                <p>clientes satisfechos</p>
+            </div>
+          </div>
+
+          <div class="icons">
+            <img src="./img/car.svg" alt="icono">
+            <div class="content">
+                <h3>350+</h3>
+                <p>coches nuevos</p>
+            </div>
+          </div>
+       </section>
+       <!--icons secction ends-->
+
+       <!--vehicle section stars-->
+           <section class="vehicles" id="vehicles">
+            <h1 class="heading">vehículos <span>populares</span></h1>
+
+            <div class="swiper vehicles-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide box">
+                       <img class="new-img"  src="./img/images8.jpg" alt="">
+                       <div class="content">
+                           <h3>Nuevo modelo</h3>
+                           <div class="price"> <span>price: </span>6.500.000fr</div>
+                           <p>
+                              <span>Nuevo<img src="./img/color_verde.png" alt=""></span>
+                              <span>2021<img src="./img/color_verde.png" alt=""></span>
+                              <span>Automático<img src="./img/color_verde.png" alt=""></span>
+                              <span>Gasolina</span>
+                           </p>
+                           <a href="" class="btn">Visualisa</a>
+                       </div> 
+                    </div>
+
+                    <div class="swiper-slide box">
+                        <img class="new-img"  src="./img/images4.jpg" alt="">
+                        <div class="content">
+                            <h3>Nuevo modelo</h3>
+                            <div class="price"> <span>price: </span>6.500.000fr</div>
+                            <p>
+                               <span>Nuevo<img src="./img/color_verde.png" alt=""></span>
+                               <span>2021<img src="./img/color_verde.png" alt=""></span>
+                               <span>Automático<img src="./img/color_verde.png" alt=""></span>
+                               <span>Gasolina</span>
+                            </p>
+                            <a href="" class="btn">Visualisa</a>
+                        </div> 
+                     </div>
+
+                     <div class="swiper-slide box">
+                        <img class="new-img" src="./img/images1.jpg" alt="">
+                        <div class="content">
+                            <h3>Nuevo modelo</h3>
+                            <div class="price"> <span>price: </span>6.500.000fr</div>
+                            <p>
+                               <span>Nuevo<img src="./img/color_verde.png" alt=""></span>
+                               <span>2021<img src="./img/color_verde.png" alt=""></span>
+                               <span>Automático<img src="./img/color_verde.png" alt=""></span>
+                               <span>Gasolina</span>
+                            </p>
+                            <a href="" class="btn">Visualisa</a>
+                        </div> 
+                     </div>
+
+                     <div class="swiper-slide box">
+                        <img class="new-img" src="./img/images11.jpg" alt="">
+                        <div class="content">
+                            <h3>Nuevo modelo</h3>
+                            <div class="price"> <span>price: </span>6.500.000fr</div>
+                            <p>
+                               <span>Nuevo<img src="./img/color_verde.png" alt=""></span>
+                               <span>2021<img src="./img/color_verde.png" alt=""></span>
+                               <span>Automático<img src="./img/color_verde.png" alt=""></span>
+                               <span>Gasolina</span>
+                            </p>
+                            <a href="" class="btn">Visualisa</a>
+                        </div> 
+                     </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+           </section>
+       <!--vehicle section ends-->
+
+       <!--service section starts-->
+       <section class="services" id="services">
+        <h1 class="heading">nuestros <span>servicios</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="./img/car.svg" alt="">
+                <h3>venta de coches</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora rem porro assumenda dolorum cupiditate voluptatibus animi, hic necessitatibus iure quo quod? Sequi alias saepe dignissimos dolore nostrum.</p>
+                <a href="" class="btn">lea más</a>
+            </div>
+
+            <div class="box">
+                <img src="./img/bxs-car-mechanic.svg" alt="">
+                <h3>Reparaciones</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora rem porro assumenda dolorum cupiditate voluptatibus animi, hic necessitatibus iure quo quod? Sequi alias saepe dignissimos dolore nostrum.</p>
+                <a href="" class="btn">lea más</a>
+            </div>
+
+            <div class="box">
+                <img src="./img/bxs-car-crash.svg" alt="">
+                <h3>Seguro de vehículo</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora rem porro assumenda dolorum cupiditate voluptatibus animi, hic necessitatibus iure quo quod? Sequi alias saepe dignissimos dolore nostrum.</p>
+                <a href="" class="btn">lea más</a>
+            </div>
+
+            <div class="box">
+                <img src="./img/bxs-car-battery.svg" alt="">
+                <h3>Cambio de batería</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora rem porro assumenda dolorum cupiditate voluptatibus animi, hic necessitatibus iure quo quod? Sequi alias saepe dignissimos dolore nostrum.</p>
+                <a href="" class="btn">lea más</a>
+            </div>
+
+            <div class="box">
+                <img src="./img/bxs-gas-pump.svg" alt="">
+                <h3>Cambio de aceite</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora rem porro assumenda dolorum cupiditate voluptatibus animi, hic necessitatibus iure quo quod? Sequi alias saepe dignissimos dolore nostrum.</p>
+                <a href="" class="btn">lea más</a>
+            </div>
+            <div class="box">
+                <img src="./img/bx-support.svg" alt="">
+                <h3>Asistencia 27/7</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora rem porro assumenda dolorum cupiditate voluptatibus animi, hic necessitatibus iure quo quod? Sequi alias saepe dignissimos dolore nostrum.</p>
+                <a href="" class="btn">lea más</a>
+            </div>
+        </div>
+       </section>
+       <!--service section ends-->
+
+       <!--featured section starts-->
+        <section class="featured" id="featured">
+             <h1 class="heading"><span>featured</span> cars</h1>
+
+             <div class="swiper featured-slider">
+
+                <div class="swiper-wrapper">
+                    <div class="swiper-slade box">
+                       <img class="img-featured" src="./img/images10.jpg" alt="">
+                       <h3>nuevo modelo</h3>
+                       <div class="stars">
+                        <img src="./img/bx-star.svg" alt="">
+                        <img src="./img/bx-star.svg" alt="">
+                        <img src="./img/bx-star.svg" alt="">
+                        <img src="./img/bx-star.svg" alt="">
+                        <img src="./img/bxs-star-half.svg" alt="">
+                       </div>
+                       <div class="price">5.000.000fr</div>
+                       <a href="" class="btn">visualiza</a>
+                    </div>
+
+                    <div class="swiper-slade box">
+                        <img class="img-featured" src="./img/images14.jpg" alt="">
+                        <h3>nuevo modelo</h3>
+                        <div class="stars">
+                         <img src="./img/bx-star.svg" alt="">
+                         <img src="./img/bx-star.svg" alt="">
+                         <img src="./img/bx-star.svg" alt="">
+                         <img src="./img/bx-star.svg" alt="">
+                         <img src="./img/bxs-star-half.svg" alt="">
+                        </div>
+                        <div class="price">5.000.000fr</div>
+                        <a href="" class="btn">visualiza</a>
+                     </div>
+
+                     <div class="swiper-slade box">
+                        <img class="img-featured" src="./img/images9.jpg" alt="">
+                        <h3>nuevo modelo</h3>
+                        <div class="stars">
+                         <img src="./img/bx-star.svg" alt="">
+                         <img src="./img/bx-star.svg" alt="">
+                         <img src="./img/bx-star.svg" alt="">
+                         <img src="./img/bx-star.svg" alt="">
+                         <img src="./img/bxs-star-half.svg" alt="">
+                        </div>
+                        <div class="price">5.000.000fr</div>
+                        <a href="" class="btn">visualiza</a>
+                     </div>
+
+                     <div class="swiper-slade box">
+                        <img class="img-featured" src="./img/images7.jpg" alt="">
+                        <h3>nuevo modelo</h3>
+                        <div class="stars">
+                         <img src="./img/bx-star.svg" alt="">
+                         <img src="./img/bx-star.svg" alt="">
+                         <img src="./img/bx-star.svg" alt="">
+                         <img src="./img/bx-star.svg" alt="">
+                         <img src="./img/bxs-star-half.svg" alt="">
+                        </div>
+                        <div class="price">5.000.000fr</div>
+                        <a href="" class="btn">visualiza</a>
+                     </div>
+                </div>
+                <div class="swiper-pagination"></div>
+             </div>
+
+             <div class="swiper featured-slider">
+
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide box">
+                       <img class="img-featured" src="./img/images10.jpg" alt="">
+                       <h3>nuevo modelo</h3>
+                       <div class="stars">
+                        <img src="./img/bx-star.svg" alt="">
+                        <img src="./img/bx-star.svg" alt="">
+                        <img src="./img/bx-star.svg" alt="">
+                        <img src="./img/bx-star.svg" alt="">
+                        <img src="./img/bxs-star-half.svg" alt="">
+                       </div>
+                       <div class="price">5.000.000fr</div>
+                       <a href="" class="btn">visualiza</a>
+                    </div>
+
+                    <div class="swiper-slide box">
+                        <img class="img-featured" src="./img/images14.jpg" alt="">
+                        <h3>nuevo modelo</h3>
+                        <div class="stars">
+                         <img src="./img/bx-star.svg" alt="">
+                         <img src="./img/bx-star.svg" alt="">
+                         <img src="./img/bx-star.svg" alt="">
+                         <img src="./img/bx-star.svg" alt="">
+                         <img src="./img/bxs-star-half.svg" alt="">
+                        </div>
+                        <div class="price">5.000.000fr</div>
+                        <a href="" class="btn">visualiza</a>
+                     </div>
+
+                     <div class="swiper-slide box">
+                        <img class="img-featured" src="./img/images9.jpg" alt="">
+                        <h3>nuevo modelo</h3>
+                        <div class="stars">
+                         <img src="./img/bx-star.svg" alt="">
+                         <img src="./img/bx-star.svg" alt="">
+                         <img src="./img/bx-star.svg" alt="">
+                         <img src="./img/bx-star.svg" alt="">
+                         <img src="./img/bxs-star-half.svg" alt="">
+                        </div>
+                        <div class="price">5.000.000fr</div>
+                        <a href="" class="btn">visualiza</a>
+                     </div>
+
+                     <div class="swiper-slide box">
+                        <img class="img-featured" src="./img/images7.jpg" alt="">
+                        <h3>nuevo modelo</h3>
+                        <div class="stars">
+                         <img src="./img/bx-star.svg" alt="">
+                         <img src="./img/bx-star.svg" alt="">
+                         <img src="./img/bx-star.svg" alt="">
+                         <img src="./img/bx-star.svg" alt="">
+                         <img src="./img/bxs-star-half.svg" alt="">
+                        </div>
+                        <div class="price">5.000.000fr</div>
+                        <a href="" class="btn">visualiza</a>
+                     </div>
+                </div>
+                <div class="swiper-pagination"></div>
+             </div>
+        </section>
+       <!--featured section ends-->
+
+       <!--newsletter section starts-->
+          <section class="newsletter">
+            <h3>subscribe for latest updates</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+               Itaque delectus impedit earum laudantium vitae repudiandae reprehenderit incidunt perspiciatis eveniet iusto.
+               Odio inventore dolorem optio harum id ullam, labore fugit atque.
+            </p>
+            <form action="">
+               <input type="email" placeholder="Escriba su correo" class="box" name="" id="">
+               <input type="submit" class="subscribe" name="" id="">
+            </form>
+          </section>
+       <!--newsletter section ends-->
+           
+       <!--review section stars -->
+          <section class="reviews" id="reviews">
+
+            <h1 class="heading">Opinion de <span>clientes</span></h1>
+
+            <div class=" swiper reviews-slider">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide box">
+                        <img class="img-review" src="./img/IMG_20220615_164955.jpg" alt="">
+                        <div class="content">
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                                Beatae cumque ad ut quam eum illo, quaerat a explicabo doloremque possimus, 
+                                quidem dolorum nostrum veniam quod animi ipsum? Vero, porro cum!
+                            </p>
+                            <h3>Natividad Abeng</h3>
+                            <div class="stars">
+                                <img src="./img/bx-star.svg" alt="">
+                                <img src="./img/bx-star.svg" alt="">
+                                <img src="./img/bx-star.svg" alt="">
+                                <img src="./img/bx-star.svg" alt="">
+                                <img src="./img/bxs-star-half.svg" alt="">
+                            </div>    
+                        </div>
+                    </div>
+                    <div class="swiper-slide box">
+                        <img class="img-review" src="./img/IMG_20220612_223906.jpg" alt="">
+                        <div class="content">
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                                Beatae cumque ad ut quam eum illo, quaerat a explicabo doloremque possimus, 
+                                quidem dolorum nostrum veniam quod animi ipsum? Vero, porro cum!
+                            </p>
+                            <h3>Urbano Akoro</h3>
+                            <div class="stars">
+                                <img src="./img/bx-star.svg" alt="">
+                                <img src="./img/bx-star.svg" alt="">
+                                <img src="./img/bx-star.svg" alt="">
+                                <img src="./img/bx-star.svg" alt="">
+                                <img src="./img/bxs-star-half.svg" alt="">
+                            </div>    
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide box">
+                        <img class="img-review" src="./img/IMG_20220615_164933.jpg" alt="">
+                        <div class="content">
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                                Beatae cumque ad ut quam eum illo, quaerat a explicabo doloremque possimus, 
+                                quidem dolorum nostrum veniam quod animi ipsum? Vero, porro cum!
+                            </p>
+                            <h3>Martin Edjo</h3>
+                            <div class="stars">
+                                <img src="./img/bx-star.svg" alt="">
+                                <img src="./img/bx-star.svg" alt="">
+                                <img src="./img/bx-star.svg" alt="">
+                                <img src="./img/bx-star.svg" alt="">
+                                <img src="./img/bxs-star-half.svg" alt="">
+                            </div>    
+                        </div>
+                    </div>
+                    <div class="swiper-slide box">
+                        <img class="img-review" src="./img/IMG_20220615_181847.jpg" alt="">
+                        <div class="content">
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                                Beatae cumque ad ut quam eum illo, quaerat a explicabo doloremque possimus, 
+                                quidem dolorum nostrum veniam quod animi ipsum? Vero, porro cum!
+                            </p>
+                            <h3>Marisol Andeme</h3>
+                            <div class="stars">
+                                <img src="./img/bx-star.svg" alt="">
+                                <img src="./img/bx-star.svg" alt="">
+                                <img src="./img/bx-star.svg" alt="">
+                                <img src="./img/bx-star.svg" alt="">
+                                <img src="./img/bxs-star-half.svg" alt="">
+                            </div>    
+                        </div>
+                    </div>
+                    <div class="swiper-slide box">
+                        <img class="img-review" src="./img/IMG_20220615_165017.jpg" alt="">
+                        <div class="content">
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                                Beatae cumque ad ut quam eum illo, quaerat a explicabo doloremque possimus, 
+                                quidem dolorum nostrum veniam quod animi ipsum? Vero, porro cum!
+                            </p>
+                            <h3>Alberto Mangomo</h3>
+                            <div class="stars">
+                                <img src="./img/bx-star.svg" alt="">
+                                <img src="./img/bx-star.svg" alt="">
+                                <img src="./img/bx-star.svg" alt="">
+                                <img src="./img/bx-star.svg" alt="">
+                                <img src="./img/bxs-star-half.svg" alt="">
+                            </div>    
+                        </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+          </section>
+       <!--review section stars -->
+
+       <!--contact section stars-->
+           <section class="contact" id="contact">
+
+            <h1 class="heading">Contacte con <span>nosotros</span></h1>
+
+           <div class="row">
+
+            <iframe src="" loading="lazy" frameborder="0"></iframe>
+            <form action="">
+                <h3>get in touch</h3>
+                <input type="text" placeholder="nombre" class="box">
+                <input type="email" placeholder="ejemplo@gmail.com" class="box">
+                <input type="number" placeholder="tel:" class="box">
+                <textarea name="" placeholder="mensaje" class="box" id="" cols="30" rows="10"></textarea>
+                <input type="submit" value="Envíe un mensaje" id="enviarMensaje" class="btn">
+            </form>
+           </div>
+           </section>
+
+       <!--contact section ends-->
+    <main>
+    </main>
+    <footer>
+       <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>Nos encontramos</h3>
+                <a href=""><img src="" alt="">Malabo</a>
+                <a href=""><img src="" alt="">Bata</a>
+            </div>
+
+            <div class="box">
+                <h3>links de la página</h3>
+                <a href="#home"><img src="" alt="">Inicio</a>
+                <a href="#vehicles"><img src="" alt="">Vehículos</a>
+                <a href="#services"><img src="" alt="">Servicios</a>
+                <a href="#featured"><img src="" alt="">featured</a>
+                <a href="#reviews"><img src="" alt="">Opiniones</a>
+                <a href=#contact""><img src="" alt="">Contactos</a>
+            </div>
+
+            <div class="box">
+                <h3>Contactos</h3>
+                <a href="#"><img src="" alt="">+2-456-175-785</a>
+                <a href="#"><img src="" alt="">+5-954-175-475</a>
+                <a href="#"><img src="" alt="">ejemplo@gmail.com</a>
+                <a href="#"><img src="" alt="">Malabo, G.E - 58462</a>
+            </div>
+
+            <div class="box">
+                <h3>Redes sociales</h3>
+                <a href="#"><img src="" alt="">facebook</a>
+                <a href="#"><img src="" alt="">twitter</a>
+                <a href="#"><img src="" alt="">instagram</a>
+                <a href="#"><img src="" alt="">linkedin</a>
+            </div>
+        </div>
+        <div class="credit">create by urbandev | Todos los derechos reservados.</div>
+       </section>
+    </footer>
+    <script class="map" src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/swiper.js"></script>
+</body>
+</html>
